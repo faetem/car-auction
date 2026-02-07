@@ -59,7 +59,7 @@ function App() {
   if (!user) {
     return (
       <div style={{ padding: '50px' }}>
-        <h1>Car auction</h1>
+        <h1>Super Car auction</h1>
         <input value={nameInput} onChange={e => setNameInput(e.target.value)} placeholder="Name" />
         <button onClick={register}>Enter</button>
       </div>
